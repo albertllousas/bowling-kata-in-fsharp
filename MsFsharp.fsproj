@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/BowlingGame.fs" />
+    <Compile Include="src/ExtendedBowlingGame.fs" />
+    <Compile Include="tests/BowlingGame.Tests.fs" />
+    <Compile Include="tests/ExtendedBowlingGame.Tests.fs" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>
